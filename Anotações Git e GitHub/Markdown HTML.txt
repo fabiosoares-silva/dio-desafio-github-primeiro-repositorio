@@ -1,0 +1,11 @@
+Markdown (forma mais humanizado do HTML)
+
+# texto (h1)
+## texto (h2)
+### texto (h3)
+#### texto (h4)
+##### texto (h5)
+###### texto (h6)
+
+**negrito**
+_italico

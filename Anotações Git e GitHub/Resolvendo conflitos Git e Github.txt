@@ -1,0 +1,14 @@
+-> Conflito na mesma linha do código 
+
+- Quando quando temos um repositório comitado, no perfil público Github, é possível que outros usuários clonen esse repositório, que inicialmente vão ser idênticos. Se um outro usuário fizer uma alteração, e coinscidir de você fazer uma alteração na mesma linha, o seu repositório vai estar desatualizado, não podendo empurrar o arquivo para o Github. A solução é atualizar o código, resolvendo a questão manualmente na linha que se encontra a desatualização. 
+
+- Se ao tentar realizar o commit aparecer a mensagem de erro ! [rejected] ... é preciso puchar esse arquivo do github para atualizar a versão do repositório. Exemplo: git pull origin master. Na parte inferior da mensagem conter "(content): Merge conflit in "nomedoarquivo.md". 
+A ação que deve ser feita é: retirar as marcações de alteração (que são caracteres estranhos) e adicionar o texto sugerido pelo outro autor (ou deletar) no editor markdown e salvar(MarkText). Após isso, commitar novamente. Exemplo: 
+git add *
+git commit -m "resolve conflitos"
+Agora, basta empurrar novamente para o Github 
+git push origin master
+
+-> Baixando um código para um repositório local
+
+

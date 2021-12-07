@@ -1,0 +1,16 @@
+-> Comandos (no git bash)
+
+CTRL + L - limpa o terminal
+
+
+- Serve para configurar username e senha no primeiro acesso ao git - 
+*git config --global  user.mail "fabiosoares.soares@gmail.com" 
+- Serve para configurar um nickname
+* git config --global user.name "Fabio Soares"
+ 
+* git init - cria uma pasta oculta (que fica dentro de outra pasta dentro do sistema operacional), Com a flag -a, é possível ver os arquivos ocultos .git. Exemplo: ls -a
+
+-> Adicionar arquivos
+*  git add - inserir git add *
+*  git commit - inserir git commit -m "commit inicial"
+

@@ -1,0 +1,38 @@
+GUI X CLI ->Graphic user interface e Command line interface
+
+Windows Command line interface
+
+git push origin master - Empurra o 
+
+git status - vai monitorar o estado dos arquivos (tracked, untracked ou staged) 
+
+git add * - pega tudo que está no diretório de trabalho e adiciona no staged para poder ser comitado.
+
+git remote add origin + o link do github. Exemplo: git remote add origin https://github.com/fabiosoares-silva/livro-receitas.git
+
+git remote -v   -Lista  as listas de repositórios cadastrados
+
+git rm - remove um arquivo do sistema
+
+mv + nome do arquivo e extensão, espaço, ponto / nome da pasta destino /- Move o arquivo para dentro de uma pasta específica. Exemplo: mv strogonoff.md ./receitas/
+
+->dir - lista de diretórios
+
+-> cls (clear screen) limpa todos os dados vistos no terminal 
+-> seta para cima é um atalho para navegar nos comandos que já foram executados no terminal.
+
+->cd (change directory)
+- cd / vai para a pasta C: 
+- cd windows vai para a pasta com arquivos windows 
+- cd.. retrocede para a pasta anterior 
+- cd + primeira letra do arquivo + tab, vai completar o nome do arquivo buscado. Isso facilita quando o arquivo tiver o nome muito extenso.
+
+-> mkdir (make directory)
+- mkdir + nome da pasta, cria uma nova pasta. 
+- para criar um arquivo é preciso digitar hello > + nome do arquivo e sua extensão, por exemplo, "echo hello > hello.txt".
+
+->del (delete)
+- del + o nome do arquivo, por exemplo, del workspace. Lembrando que, apenas o arquivo será apagado, a pasta não.
+
+->rmdir (remove directory) - remove a pasta (ou repositório) e os arquivos contidos nela. Exemplo: "rmdir workspace /S /Q". 
+

@@ -1,0 +1,6 @@
+-> Untracked (arquivos que não são monitorados pelo Git) - Quando se cria um arquivo, a princípio ele não fica monitorado pelo Git.
+
+-> Tracked (arquivos que podem ser restreados/monitorados pelo Git) - Eles são subdivididos em três:
+*Unmodified - Que não foi modificado (não teve alteração de sha1)
+*Modified - Que foi modificado
+*Staged - Arquivos sujeitos a participar de outros agrupamentos (ele está se preparando para sofrer um Commit). A partir daí, o arquivo retorna para o estágio de unmodified.

@@ -1,0 +1,17 @@
+-> Untracked (arquivos que não são monitorados pelo Git) - Quando se cria um arquivo, a princípio ele não fica monitorado pelo Git.
+
+-> Tracked (arquivos que podem ser restreados/monitorados pelo Git) - Eles são subdivididos em três:
+*Unmodified - Que não foi modificado (não teve alteração de sha1)
+*Modified - Que foi modificado
+*Staged - Arquivos sujeitos a participar de outros agrupamentos
+
+O que os repositórios significam?
+
+Servidor (que é o Github) Remote repository - 
+
+Ambiente de desenvolvimento (que está em nossa máquina)
+*Working directory (repositório de trabalho) 
+*Staging area 
+* Local repository
+
+
